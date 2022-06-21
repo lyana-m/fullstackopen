@@ -1,0 +1,6 @@
+title New note
+
+note left of browser: browser prevent defaulf behavior on submit
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa body: { note: content: "Hello", date: "2022-06-21T18:03:55.650Z" }
+
+server->browser: Status code 201 created response: {"message":"note created"}
